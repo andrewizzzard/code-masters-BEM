@@ -1,0 +1,27 @@
+.message-list {
+  color: black;
+  width: 200px;
+}
+.message {
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+.message_ordinary {
+  background-color: beige;
+}
+.message_important {
+  background: red;
+}
+.author {
+  width: 90px;
+  height: 90px;
+  border-radius: 90%;
+}
+.author_no-picture {
+  background: blue;
+}
+.message__author {
+  position: absolute;
+  right: 0;
+}
